@@ -2,5 +2,5 @@
 > Feito com HTML e SCSS.
 
 <p align="center">
- <img width="700" src="https://github.com/Johnson49/clonado-homepage-HBO-MAX/blob/main/img/gif.gif"> 
+ <img width="650" src="https://github.com/Johnson49/clone-da-homepage-HBO-MAX/blob/main/img/gif.gif"> 
 </p>
