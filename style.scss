@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@400;800&family=Roboto&display=swap');
+
+$textcolor: #f8f9fa;
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 50vw;
+    background-color: rgba(0,0,0,.3);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    // margin-bottom: 10vh;
+   
+    .area-logo-marca{
+    
+        width: 160px;
+        height: 27px ;
+    }
+
+    .div-btn{
+
+    
+        display: flex;
+     
+        align-items: center;
+
+        a{
+            font-size: .93rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $textcolor;
+            padding: 6.6px 24px 6px;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+        .area-btn-login{
+            text-align: center;
+            background: none;
+        }
+        .area-btn-assinar{
+            background: #9f00ee;
+     
+            padding: 8px 29px;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 20px ;
+
+            &:hover{
+                background: #9911dd;
+            }
+        }
+    }
+}
+
+
+.area-home{
+    background: url("./img/bg.jpg");
+    // width: 100%;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .flex-conteiner{
+        position: relative;
+        padding: 1rem 0;
+        top: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        
+        p{
+            font-family: 'Noto Serif HK', serif;
+            width: max-content;
+        
+        }
+        h2{
+            font-family: 'Noto Serif HK', serif;
+            color: #ffffff;
+            font-size: 30px;
+
+            strong{
+                font-weight: bold;
+            }
+            small{
+                color: rgba(255, 255, 255, 0.7);
+                font-size: 11px;
+
+            }
+        }
+        .disponivel{
+            letter-spacing: .5rem;
+            color: #a88363;
+            line-height: 38px;
+            font-size: 28px;
+            margin-top: 8vh;
+            text-transform: uppercase;
+        }
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #950bda;
+            color: #ffffff;
+            padding: 12px 35px;
+            font-family: 'Roboto', sans-serif;
+            border-radius: 20px;
+            letter-spacing: .2rem;
+
+            &:hover{
+                background: #ac21f1;
+            }
+        }
+        p{
+            color: #ffffff;
+            font-size: 11px;
+            span{
+                display: block;
+                padding-left: 13px;
+            }
+        }
+        .assinatura{
+            color: #ffffff;
+            margin: 0;
+            font-size: 1.2rem;
+
+        }
+        .cont-center{
+            width: max-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            img{
+                width: 358.5px;
+                height: 216.33px;
+                border: none;
+            }
+        }
+    }
+}
+
+.cont-preco{
+    background-color: #030328;
+    height: 60vh;
+}
